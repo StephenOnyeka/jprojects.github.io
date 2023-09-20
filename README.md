@@ -78,7 +78,6 @@
     <script>
     var selectedRow = null;
 
-// Show Alerts
 function showAlert(message, className) {
     const div = document.createElement('div');
     div.className = `alert alert-${className}`;
@@ -90,25 +89,20 @@ function showAlert(message, className) {
 
     setTimeout(() => document.querySelector('.alert').remove(),3000)
 }
-
-// Clear All Fields
 function clearFields() {
     document.querySelector('#firstName').value = '';
     document.querySelector('#lastName').value = '';
     document.querySelector('#rollNo').value = '';
 }
 
-// Add Data
 
 document.querySelector('#student-form').addEventListener('submit', (e) => {
     e.preventDefault();
 
-    //get form values
     const firstName = document.querySelector('#firstName').value;
     const lastName = document.querySelector('#lastName').value;
     const rollNo = document.querySelector('#rollNo').value;
 
-    // validate
     if (firstName == "" || lastName == "" || rollNo == ""){
         showAlert("Please fill in all fields", "danger");
     } else {
@@ -141,7 +135,6 @@ document.querySelector('#student-form').addEventListener('submit', (e) => {
     }
 });
 
-// Edit Data
 document.querySelector('#student-list').addEventListener('click', (e) => {
     target = e.target;
     if (target.classList.contains('edit')) {
@@ -151,8 +144,6 @@ document.querySelector('#student-list').addEventListener('click', (e) => {
         document.querySelector('#rollNo').value = selectedRow.children[0].textContent;
     }
 })
-
-// Delete Data
 
 document.querySelector('#student-list').addEventListener('click', (e) => {
     target = e.target;
