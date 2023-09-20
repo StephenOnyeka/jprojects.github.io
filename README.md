@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,8 +10,6 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="CRUD.css">
-
-
 </head>
 
 <body>
@@ -28,17 +25,17 @@
                 <div class="col-10 col-md-8 mb-3">
                     <label for="firstName">First Name</label>
                     <input class="form-control" id="firstName" type="text"
-                        placeholder="Enter First Name"></input>
+                        placeholder="Enter First Name">
                 </div>
                 <div class="col-10 col-md-8 mb-3">
                     <label for="lastName">Last Name</label>
                     <input class="form-control" id="lastName" type="text"
-                        placeholder="Enter Last Name"></input>
+                        placeholder="Enter Last Name">
                 </div>
                 <div class="col-10 col-md-8 mb-3">
                     <label for="rollNo">Roll No</label>
                     <input class="form-control" id="rollNo" type="text"
-                        placeholder="Enter RollNo"></input>
+                        placeholder="Enter RollNo">
                 </div>
                 <div class="col-10 col-md-8">
                     <input class="btn btn-success add-btn" type="submit" value="Submit">
