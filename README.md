@@ -1,4 +1,4 @@
-# JProjects - Personal Project Portfolio
+# JProjects - CRUD Operation
 
 ## Overview
 
@@ -52,4 +52,3 @@ This project is open source and available under the [MIT License](LICENSE).
 For inquiries or collaboration opportunities:
 
 - GitHub: [@StephenOnyeka](https://github.com/StephenOnyeka)
-- Email: [ejeanobionyeka@gmail.com] <!-- Add your email if you want -->
