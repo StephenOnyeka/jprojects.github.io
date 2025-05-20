@@ -45,7 +45,7 @@ While this is primarily a personal project, contributions and suggestions are we
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License]
 
 ## Contact
 
