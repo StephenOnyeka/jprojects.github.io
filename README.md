@@ -9,8 +9,8 @@ JProject is a personal project built to showcase how CRUD operation can be perfo
 - **Responsive Design**: Works on all device sizes
 - **Project Showcase**: Clean presentation of completed projects
 - **Modern UI**: Attractive and user-friendly interface
-- **Easy Navigation**: Intuitive menu structure
-- **Contact Section**: For potential collaborators or employers
+- **Form panel**: Intuitive menu structure
+- **Response Section**: For uploading responses as entered from the Form panel
 
 ## Technologies Used
 
